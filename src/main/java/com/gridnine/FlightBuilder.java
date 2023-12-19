@@ -16,7 +16,7 @@ public class FlightBuilder {
      * Метод создания перелетов
      * @return
      */
-    static List<Flight> createFlights() {
+    public static List<Flight> createFlights() {
         LocalDateTime threeDaysFromNow = LocalDateTime.now().plusDays(3);
         return Arrays.asList(
                 //A normal flight with two hour duration
